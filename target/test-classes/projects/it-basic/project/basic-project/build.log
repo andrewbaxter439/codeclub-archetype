@@ -1,0 +1,45 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.codeclub:basic-project >---------------------
+[INFO] Building CodeClub - basic-project 0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ basic-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ basic-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ basic-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ basic-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ basic-project ---
+[INFO] Surefire report directory: C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.pkg.AppTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ basic-project ---
+[INFO] Building jar: C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\basic-project-0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.508 s
+[INFO] Finished at: 2023-06-14T23:18:01+01:00
+[INFO] ------------------------------------------------------------------------
