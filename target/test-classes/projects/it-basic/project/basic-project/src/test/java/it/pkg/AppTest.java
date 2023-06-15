@@ -11,7 +11,7 @@ import java.io.PrintStream;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
 {
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
@@ -30,5 +30,11 @@ public class AppTest
     public void runs() {
         App test_app = new App();
         Assertions.assertInstanceOf(App.class, test_app);
+    }
+
+    @Test
+    public void helpOutput() {
+        App.main(new String[]{"-h"});
+        Assertions.assertTrue(outputStreamCaptor.toString().contains("Usage"));
     }
 }

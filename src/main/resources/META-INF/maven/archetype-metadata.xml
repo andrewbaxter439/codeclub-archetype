@@ -31,4 +31,13 @@ under the License.
       <directory>src/test/java</directory>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+    <requiredProperty key="app_name">
+<!--      <defaultValue>${artifactId.replaceAll("java_", artifactId.charAt(0).toUpperCase())}</defaultValue>-->
+      <defaultValue>${artifactId.replaceAll("java_", "")}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key = "description">
+      <defaultValue>A handy, dandy app for doing whatever you like</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>

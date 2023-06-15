@@ -2,7 +2,7 @@
 [INFO] Scanning for projects...
 [INFO] 
 [INFO] ---------------------< com.codeclub:basic-project >---------------------
-[INFO] Building CodeClub - basic-project 0.1-SNAPSHOT
+[INFO] Building CodeClub - basic-project 0.0.1
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ basic-project ---
@@ -21,25 +21,26 @@
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ basic-project ---
+[INFO] --- maven-surefire-plugin:3.1.2:test (default-test) @ basic-project ---
 [INFO] Surefire report directory: C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running it.pkg.AppTest
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-
-Results :
-
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running it.pkg.AppTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.467 s -- in it.pkg.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ basic-project ---
-[INFO] Building jar: C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\basic-project-0.1-SNAPSHOT.jar
+[INFO] Building jar: C:\Programming\coding_blub\codeclub-archetype\target\test-classes\projects\it-basic\project\basic-project\target\basic-project-0.0.1.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.508 s
-[INFO] Finished at: 2023-06-14T23:18:01+01:00
+[INFO] Total time:  8.316 s
+[INFO] Finished at: 2023-06-15T01:07:32+01:00
 [INFO] ------------------------------------------------------------------------
