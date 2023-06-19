@@ -32,7 +32,7 @@ mvn archetype:generate                     \
   -DarchetypeArtifactId=codeclub-archetype \
   -DgroupId=com.codeclub                   \
   -DartifactId=java_testcool               \
-  -DappName=TestCool
+  -Dapp_name=TestCool
 ```
 
 In Windows Powershell, the arguments must be in quotation marks:
@@ -43,7 +43,7 @@ mvn archetype:generate                       \
   "-DarchetypeArtifactId=codeclub-archetype" \
   "-DgroupId=com.codeclub"                   \
   "-DartifactId=java_testcool"               \
-  "-DappName=TestCool"
+  "-Dapp_name=TestCool"
 ```
 
 This creates a new project directory with the following structure:
@@ -56,13 +56,13 @@ This creates a new project directory with the following structure:
     │   └───java
     │       └───com
     │           └───codeclub
-    │                   testcool.java
+    │                   TestCool.java
     │
     └───test
         └───java
             └───com
                 └───codeclub
-                        testcoolTest.java
+                        TestCoolTest.java
 ```
 
 Open in your favourite IDE to get started! I use [IntelliJ IDEA](https://www.jetbrains.com/community/education/#students/)
