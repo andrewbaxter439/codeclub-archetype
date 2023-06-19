@@ -9,7 +9,7 @@
   <version>${version}</version>
   <packaging>jar</packaging>
   <name>CodeClub - ${artifactId}</name>
-  <url>https://andybaxter.me</url>
+  <url>https://shwcodingclub.github.io/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
