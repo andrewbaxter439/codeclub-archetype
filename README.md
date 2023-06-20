@@ -24,7 +24,7 @@ mvn install
 
 ## Start a new project
 
-In your root folder, use your newly installed maven archetype to make a new project. Under `artifactId` give your project a name and under `appName` give the name of the main class. For example for the `java_testcool` project and the `TestCool` app:
+In your root folder, use your newly installed maven archetype to make a new project. Under `artifactId` give your project a name and under `app_name` give the name of the main class. For example for the `java_testcool` project and the `TestCool` app:
 
 ```shell
 mvn archetype:generate                     \
