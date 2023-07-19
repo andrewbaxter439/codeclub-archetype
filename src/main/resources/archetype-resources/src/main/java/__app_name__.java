@@ -28,7 +28,7 @@ public class ${app_name}
         init_app.run();
     }
 
-    public static void run() {
+    public void run() {
         System.out.println( "Hello World!" );
     }
 }
